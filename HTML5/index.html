@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meteor</title>
+  <link rel ="stylesheet" href = "css/style.css">
+  <style>
+  	
+  	body{
+  		background-color: white;
+  	}
+  	header{
+  		background-color: pink;
+
+  		color:white;
+  	}
+  	nav{
+  		background-color: white;
+  		color: black;
+  		margin-right: 10px;
+  		
+  	}
+  </style>
+
+
+ 
+</head>
+<body>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ZmUOfwsyns" frameborder="0" allowfullscreen></iframe>
+
+
+<video width="320" height="315" controls>
+  <source src="public/video/tobacco.mp4" type="video/mp4">
+</video>
+
+<progress value="22" max="100"></progress>
+<hr>
+<section>
+  <article>
+    <form oninput="x.value=parseInt(a.value)+ parseInt(b.value)">0 
+    <input type="range" id="a" value="50">100
+    +<input type"number" id="b" value="50">
+      =<output name="x" for="a b"> </output>
+
+
+    </form>
+  </article>
+</section>
+
+
+
+<section>
+
+
+  <article>
+    <meter value="2" min="0" max="10"> Tengo 2 oiezas de 10</meter>
+    <meter value="0.6"> 60% </meter>
+  </article>
+
+
+
+</section>
+
+
+  <p><strong>Lorem ipsum dolor:</strong> sit amet, <mark style="background-color: pink">consectetur adipisicing elit. </mark>Itaque, cupiditate ab excepturi. Quam quisquam molestiae earum ipsam voluptate ducimus necessitatibus inventore, eveniet tempore voluptatum quod voluptatem, ut saepe placeat ipsum!</p>
+
+  <figure>
+    <img src="public/img/colores.png" alt="Colores" width="200" height="200" style="border:solid; border-color:black;" >
+  </figure>
+  <details>
+    <summary>Mis Platillos</summary>
+    <ul>
+      <li>Chiles en Nogada</li>
+      <li>Tamalitos</li>
+      <li>Chilaquiles</li>
+    </ul> 
+  </details>
+
+
+
+  <select name= "autos" id="cars">
+    <option value= "Audi">Audi</option>
+   <option value= "Volskwagen">Volskwagen</option>
+   <option value= "Ford">Ford</option>
+   <option value= "Fiat">Fiat</option>
+   <option value= "Ferrari">Ferrari</option>
+  </select>
+
+
+  <input list="canalesYoutube">
+  <datalist id="canalesYoutube"> 
+    <option value="Platzi"></option>
+    <option value="Codigo Facilito"></option>
+    <option value="Coursera"></option>
+    <option value="TreeHouse"></option>
+  </datalist>
+  <audio controls="controls">
+    <source src="public/sounds/side.mp3"
+    type="audio/mp3"> 
+  </audio>
+
+  <audio controls="controls" loop="loop" autoplay="autoplay">
+    <source src="public/sounds/xx.wav" type="audio/wav">
+  </audio>
+ 
+<header>
+	<h1>Mi página Web</h1>
+</header>
+
+<nav id="nav">
+	<a href="https://google.com">Home</a>
+	<a href="#hola">Contact</a>
+	<a href="#how">How it works</a>
+	
+</nav>
+<section>
+  <article>
+    <h1>Mi pagina Web</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, cupiditate ab excepturi. Quam quisquam molestiae earum ipsam voluptate ducimus necessitatibus inventore, eveniet tempore voluptatum quod voluptatem, ut saepe placeat ipsum!</p>
+  </article>
+
+  <aside>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem facilis ipsa consequuntur, itaque quisquam animi cupiditate voluptates deserunt porro cumque, quis nesciunt laborum. Nisi, omnis consectetur nesciunt ex quod!</p>
+  </aside>
+</section>
+
+<canvas id="miCanvas" width="400" height="200"
+ style= "border:dashed; border-width:4px; border-color:white;">
+ </canvas>
+<!--
+ <script>
+ var canvas=
+ document.getElementById("miCanvas");
+ var ctx =canvas.getContext("2d");
+ ctx.fillRect(0,0,40,40);
+
+ </script>
+ -->
+<!--
+ <script>
+ var canvas=
+ document.getElementById("miCanvas");
+ var ctx =canvas.getContext("2d");
+ ctx.moveTo(0,0);
+ ctx.lineTo(200,100);
+ ctx.stroke();
+
+ </script>
+ -->
+ <!--
+ <script>
+ var canvas=
+ document.getElementById("miCanvas");
+ var ctx =canvas.getContext("2d");
+ ctx.beginPath();
+ ctx.arc(95,50,40,0,2*Math.PI);
+ ctx.stroke();
+
+ </script>
+  -->
+<!-- 
+ 
+ <script>
+ var canvas=
+ document.getElementById("miCanvas");
+ var ctx =canvas.getContext("2d");
+ctx.font ="30px Arial";
+ ctx.strokeText("Hello World", 50,150);
+
+ </script>
+  -->
+<script>
+ var canvas=
+ document.getElementById("miCanvas");
+ var ctx =canvas.getContext("2d");
+ var grd = ctx.createLinearGradient(0,0,200,0);
+ grd.addColorStop(0,"red");
+ grd.addColorStop(1, "white");
+ ctx.fillStyle =grd;
+ ctx.fillRect(10,10,150,80);
+
+ </script>
+ 
+
+
+</body>
+</html>
+
+
+
